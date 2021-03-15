@@ -74,6 +74,7 @@ function AddInventory(props) {
     }
      
 
+    
     return (
         <div className="inventory">
             <div>

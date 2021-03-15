@@ -13,6 +13,15 @@ function Inventory() {
         setTotalInventory(prevInventory)
     }, []);
 
+    const HandleDelete = (id) => {
+        alert("Delete the Entry?")
+
+        let leftData = inventory.filter(item => {
+            return item.id !== id
+        })
+        setInventory(leftData)
+    }
+
     const handleSearch = e => {
         if(e.target.value=="")
             return setInventory(totalInventory);
@@ -48,6 +57,7 @@ function Inventory() {
                         <td>{price}</td>
                         <td>{stock}</td>
                         <td>{discount}</td>
+                        <td className="inDel" onClick={()=>{HandleDelete(id)}}>X</td>
                     </tr>
                 )} 
             

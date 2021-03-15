@@ -31,6 +31,14 @@ function Execs(props) {
         setExecs(results);
     }
 
+   const HandleDelete=(id)=>{
+    alert("Delete the Executive Entry?")
+    let leftData = execs.filter(item => {
+        return item.id !== id
+    })
+    setExecs(leftData)
+   }
+
     return (
         <div>
              <input type="text" name="execName" placeholder="Search Executive By Name" onChange={handleSearch} />
@@ -55,6 +63,7 @@ function Execs(props) {
                         <td>{DOB}</td>
                         <td>{gender}</td>
                         <td>{Experience}</td>
+                        <td className="inDele" onClick={()=>{HandleDelete(id)}}>X</td>
                     </tr>
                 }
                 )} 
