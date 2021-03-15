@@ -1,0 +1,21 @@
+.ExecNav{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100vh;
+    background-color: #03234A;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #03234A;
+    color: white;
+    border:none;
+    outline: none;
+}
+
+.ExecWrapper {
+    display: flex;
+    box-sizing: border-box;
+}

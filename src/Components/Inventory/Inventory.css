@@ -1,0 +1,23 @@
+#admin-inv-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left:100px;
+    /* margin: 20px 50%; */
+    /* width: 85%; */
+  
+  }
+  
+#admin-inv-table tr, #admin-inv-table th{
+    /* padding-top:30px; */
+    /* padding-bottom: 30px; */
+    box-shadow: 2px 3px 3px black;
+    border: 10px solid #F6F7FB;
+    height: 50px;
+  }
+  
+ #admin-inv-table tr:nth-child(even) {
+    background-color: #dddddd;
+    
+  }
+
+

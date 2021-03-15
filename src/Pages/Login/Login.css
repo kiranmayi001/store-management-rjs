@@ -1,0 +1,84 @@
+body{
+    background-color: #F6F7FB;
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url("https://cdn.hipwallpaper.com/i/62/26/HKoPzd.jpg");  */
+    /* background:linear-gradient(120deg,#2980b9,#8e44ad); */
+}
+.LoginSection{
+    position: absolute;
+    margin: 0;
+    /* background:linear-gradient(120deg,#2980b9,#8e44ad); */
+    background-image: url("https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg"); 
+    width:100%;
+    height: 100vh;
+}
+.FormWrapper{
+    /* background-color: red; */
+    margin-top: 0px;
+   
+}
+.logout{
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.LoginPage{
+    position: relative;
+    border-radius: 12px;
+    width:400px;
+    height:350px;
+    /* box-shadow: 2px 4px 4px blueviolet; */
+    margin: auto;
+    margin-top: 150px;
+    background-color: #FFFFFF;
+}
+.Heading{
+    padding-top:30px;
+    padding-left:10px;
+    /* margin-left: 20px; */
+    color: #2B5E5B;
+}
+
+.InputField{
+    cursor: pointer;
+    width:80%;
+    height:40px;
+    margin-top:20px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:10px;
+    border:none;
+    border-bottom: 2px solid #8C8C8C;
+    outline: none;
+    background:none;
+    /* text-align: center; */
+}
+.InputField::placeholder{
+    /* color:#2691d9; */
+    cursor: pointer;
+
+}
+.InputField:focus{
+    border-bottom: 1px solid #2691d9;
+    color: #2691d9;
+    cursor: pointer;
+    /* transition: 0.5s; */
+}
+.SubmitBtn{
+    width:80%;
+    height:40px;
+    border-radius: 15px;
+    background-color: #2B5E5B;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin:auto;
+     border:none;
+     outline:none;
+     color: white;
+     margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+.order-page-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    /* margin-left:100px; */
+    margin: 20px auto;
+  
+  }
+  
+.order-page-table-table tr, .order-page-table-table th{
+    padding-top:30px;
+    padding-bottom: 30px;
+    box-shadow: 2px 3px 3px black;
+    border: 10px solid #F6F7FB;
+    height: 50px;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+.order-page-table tr td {
+    width:300px;
+}
+  
+ .order-page-table-table tr:nth-child(even) {
+    background-color: #dddddd;
+    
+  }
+
+

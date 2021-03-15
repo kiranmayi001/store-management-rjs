@@ -1,0 +1,10 @@
+.AdminDash{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
