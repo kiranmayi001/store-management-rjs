@@ -3,21 +3,36 @@
     border-collapse: collapse;
     margin-left:100px;
     margin: 20px 50%;
-    width: 85%;
-  
+    width: 175%;
+  background-color: white;
   }
   
 #exec-orders-table tr, #exec-orders-table th{
     padding-top:30px;
     padding-bottom: 30px;
     box-shadow: 2px 3px 3px black;
-    border: 10px solid #F6F7FB;
+    /* border: 10px solid #F6F7FB; */
+    /* background-color: white; */
     height: 50px;
   }
   
  #exec-orders-table tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #F6F7FB
     
+  }
+  #exec-orders-table tr:nth-child(odd) {
+    background-color: #F6F7FB;
+    
+  }
+
+  td Link{
+    text-decoration: none;
+    color: black;
+  }
+  span{
+    text-decoration: none;
+    color: black;
+    border: none;
   }
 
 

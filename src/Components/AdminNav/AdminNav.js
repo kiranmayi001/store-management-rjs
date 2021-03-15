@@ -11,6 +11,7 @@ function AdminNav(props) {
     } = props;
     return (
         <div className="AdminNav">
+            <h3>Hello, Admin</h3>
             <button onClick={() => {
                 setShowAddInventory(true);
                 setShowInventory(false);

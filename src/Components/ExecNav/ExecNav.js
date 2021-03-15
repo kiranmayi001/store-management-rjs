@@ -6,6 +6,7 @@ function ExecNav(props) {
 
     return (
         <div className="ExecNav">
+            <h3>Hello, Sales Executive</h3>
             <button onClick={() => { 
                    setShowCreateOrder(true);
                     setShowOrders(false);

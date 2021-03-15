@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import execsData from '../../data/execs';
+import './AddExec.css'
 
 function AddExec() {
     const [firstName, setFirstName] = useState("")
@@ -43,7 +44,7 @@ function AddExec() {
      
 
     return (
-        <div>
+        <div className="Exec">
             <div>
                 <h3>Add Executive</h3>
                 <div>

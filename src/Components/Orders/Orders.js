@@ -44,7 +44,7 @@ function Orders(props) {
                 {orders.map(({ id, customerName, contactNumber, totalAmt }, index) =>
                     <tr key={id+'-'+index}>
                         <td>
-                            <Link to={`/order/${id}`}>{id}</Link>
+                            <Link to={`/order/${id}`}><span>{id}</span></Link>
                         </td>
                         <td>{customerName}</td>
                         <td>{contactNumber}</td>

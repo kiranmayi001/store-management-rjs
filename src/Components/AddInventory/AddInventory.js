@@ -1,5 +1,6 @@
 import React, { useEffect, useState} from 'react';
 import  productsData from '../../data/products'; 
+import './Addinventory.css'
 
 
 function AddInventory(props) {
@@ -74,7 +75,7 @@ function AddInventory(props) {
      
 
     return (
-        <div>
+        <div className="inventory">
             <div>
                 <p>Add Products</p>
                 <select 

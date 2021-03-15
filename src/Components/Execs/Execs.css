@@ -1,9 +1,9 @@
 #execs-table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    margin-left:100px;
-    margin: 20px 50%;
-    width: 85%;
+    margin-left:40px;
+    margin: 20px 20px;
+    width: 175%;
   
   }
   
@@ -11,13 +11,19 @@
     padding-top:30px;
     padding-bottom: 30px;
     box-shadow: 2px 3px 3px black;
-    border: 10px solid #F6F7FB;
+    /* border: 10px solid #F6F7FB; */
     height: 50px;
+    margin-left: 0px;
+    font-size: 16px;
   }
-  
- #execs-table tr:nth-child(even) {
-    background-color: #dddddd;
+
+  td{
+  margin-left: 40px;
+  }
+
+  #execs-table tr:nth-child(even) {
+    background-color: #F6F7FB;
     
-  }
+  } 
 
 

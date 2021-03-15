@@ -88,10 +88,10 @@ function CreateOrder(props) {
     }
 
     return (
-        <div>
+        <div  className="create">
             <div>
-                <input type="text" name="customerName" value={customerName}  placeholder="Customer Name" onChange={handleCustomerDetailChange} />
-                <input type="text" name="contactNumber" value ={contactNumber} placeholder="Customer Contact" onChange={handleCustomerDetailChange} />
+                <input type="text" name="customerName" value={customerName}  placeholder="Customer Name" onChange={handleCustomerDetailChange} className="inp"/>
+                <input type="text" name="contactNumber" value ={contactNumber} placeholder="Customer Contact" onChange={handleCustomerDetailChange} className="inp"/>
             </div>
             <div>
                 <p>Add Products</p>
@@ -132,14 +132,14 @@ function CreateOrder(props) {
                             <input  className="qty-input" type="number" name="quantity" defaultValue="1" onChange={e => handleProductQtyChange(e, index)}/>
                         </td>
                         <td>
-                            <div  className="remove-row-btn"onClick={() => removeProduct(product.id)}>x</div>
+                            <div  className="remove-row-btn"onClick={() => removeProduct(product.id)}>Delete</div>
                         </td>
                      </tr>
                 )}
                 </tbody>
             </table>
             <div>
-                <p>Total Amount {totalAmt}</p>
+                <p>Total Amount : ${totalAmt}</p>
                 {error && <p style={{color:'red', fontSize:'12px'}}>{error}</p>}
                 <button className="order-btn" onClick={placeOrder}>Place Order</button>
             </div>
